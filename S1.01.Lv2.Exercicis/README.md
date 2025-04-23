@@ -5,7 +5,7 @@ Exercici sobre Smartphone amb atributs Strings de ,marca i model i metode que ve
 
 💻Tecnologies Utilitzades
 
-Recursos de Moodle, ChatGpt, Intellij, Git Hub i Git Bash.
+Recursos de Moodle, Intellij, Git Hub i Git Bash.
 
 
 📋Requisits
