@@ -1,33 +1,64 @@
-📄Descripció - Enunciat de l'exercici
+# 📱 S1.01 - Herència i Interfícies: Smartphone en Java
 
-Exercici sobre Smartphone amb atributs Strings de ,marca i model i metode que ve d'interficies implementades i d'una clase superior (Phone).
+## 📄 Enunciat de l'exercici
 
+### 📞 Exercici: Telèfon intel·ligent amb interfícies
 
-💻Tecnologies Utilitzades
+Implementa un sistema de classes i interfícies per representar un telèfon intel·ligent.
 
-Recursos de Moodle, Intellij, Git Hub i Git Bash.
+#### Classes i interfícies:
 
+- **Classe `Telèfon`**
+  - Atributs: `marca`, `model`
+  - Mètode: `trucar(String numero)` → mostra: *"S'està trucant al número: [numero]"*
 
-📋Requisits
+- **Interfície `Camera`**
+  - Mètode: `fotografiar()` → mostra: *"S’està fent una foto"*
 
-Es necessari l'ús de IntelliJ, Git Hub i Git Bash.
+- **Interfície `Rellotge`**
+  - Mètode: `alarma()` → mostra: *"Està sonant l’alarma"*
 
+- **Classe `Smartphone`**
+  - Hereta de `Telèfon`
+  - Implementa les interfícies `Camera` i `Rellotge`
+  - Implementa els mètodes corresponents
 
-🛠️Instal·lació
+#### Al `main()`:
+- Crea un objecte de la classe `Smartphone`
+- Crida els mètodes:
+  - `trucar()`
+  - `fotografiar()`
+  - `alarma()`
 
-Descarregar de la pàgina oficial les apps de IntelliJ (community), Git Bash (per donar les comandes en la terminal, sobretot de l'enllaçament amb els repositoris a Git Hub) i tenir un perfil propi creat a Git Hub.
+📚 **Objectiu:** Practicar la combinació d’herència i interfícies en Java.
 
+---
 
-▶️Execució
+## 💻 Tecnologies Utilitzades
 
-Obrir Git Bash, IntelliJ i Git Hub. Treballar amb IntelliJ els projectes demanats i desar-los en una carpeta que farem servir despres com a repositori enllaçat a git hub mitjançant el git bash i les comandes necessaries.
+- Java 17
+- IntelliJ IDEA (Community Edition)
+- Maven (opcional)
+- Git & GitHub
 
+---
 
-🌐Desplegament
+## 📋 Requisits previs
 
-Obrir la app Intellij amb el projecte.
+- Java JDK 17
+- IntelliJ IDEA Community Edition
+- Git Bash o terminal
+- Compte a GitHub
 
+---
 
-🤝Contribucions
+## 🛠️ Instal·lació i configuració
 
-Gracies a l'Ana, l'Alex, l'Adrià i l'Ignasi per la ajuda en el desenvolupament del projecte.
+1. Instal·la:
+   - [Java JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+   - [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/)
+   - [Git Bash](https://gitforwindows.org/)
+2. Clona el repositori (substitueix per l’URL real si cal):
+   ```bash
+   git clone https://github.com/elmeuusuari/Smartphone-Java.git
+   cd Smartphone-Java
